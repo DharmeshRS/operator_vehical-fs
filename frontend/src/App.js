@@ -7,7 +7,6 @@ import Trips from './components/Trips';
 function App() {
   return (
     <div className="App">
-    {/* <Homepage /> */}
     <Routes>
     <Route path="/" element={<Homepage />}> </Route>
     <Route  path="/operator" element={<Operator />} ></Route>

@@ -15,11 +15,11 @@ const Homepage = () => {
         setForm({...form,[name]:value})
         console.log("submit",form)
         const {uname,password}=form
-        if(uname==="dharmesh" || password==="123456"){
+        if((uname==="dharmesh") && (password==="123456")){
           // console.log("first")
           navigate('/operator')
         }else{
-          alert("Sorry")
+          alert("Invalid Credentials")
         }
         
 }

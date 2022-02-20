@@ -18,11 +18,29 @@ code {
 }
 
 .vehiclepage > div{
-   margin-left:20px;
-  margin-right:55px;
+   /* margin-left:20px;
+  margin-right:60px; */
+  margin: auto;
+  padding: 10px;
 }
 
 .vehiclepage1 > div{
-  margin-left:10px;
- margin-right:10px;
+  /* margin-left:0px;
+ margin-right:5px; */
+ margin: auto;
+ padding: 10px;
+ 
 }
+.vehiclepage1 {
+  border: 1px solid black;
+  background-color: gray;
+}
+
+.vehiclepage:hover{
+  background-color: rgb(177, 176, 176);
+}
+.operatorpage{
+  margin:auto;
+  border: 1px solid black;
+}
+
