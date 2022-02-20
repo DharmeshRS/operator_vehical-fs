@@ -8,7 +8,7 @@ router.post("/",
     async (req,res)=>{
         const operator=await Operator.create(req.body)
         console.log(operator)
-      
+        res.status(201).json({data:operator})
     }
 )
 
