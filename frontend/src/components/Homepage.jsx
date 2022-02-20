@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom';
+import '../homepage.css';
 const Homepage = () => {
   const [form,setForm]=useState("")
   const navigate=useNavigate()
@@ -24,7 +25,7 @@ const Homepage = () => {
         
 }
   return (
-    <div>
+    <div className='homepage'>
           <h1>Operator Vehicle Management </h1>     
         <div>
         <form onSubmit={handleSubmit}>

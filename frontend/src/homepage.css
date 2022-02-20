@@ -1,0 +1,25 @@
+.homepage{
+    border: 1px solid gray;
+    width:50% ;
+    margin:auto;
+    padding: 100px;
+   
+}
+
+h1{
+    background-color: gray;
+} 
+
+.homepage >div{
+    background-color: rgb(219, 219, 219);
+}
+
+input{
+    padding:5px;
+}
+
+button{
+    padding:5px;
+    padding-left: 20px;
+    padding-right:20px;
+}
